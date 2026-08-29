@@ -11,7 +11,7 @@ from google.auth.transport.requests import Request
 
 
 # ================== تنظیمات ==================
-CLIENT_SECRET_FILE = r'D:\Talasea\client_secret_1077579720671-tntvk1tgc25iv1js2v3acg04aefc65po.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = r'D:\client_secret.apps.googleusercontent.com.json'
 
 TOKEN_FILE = 'token.json'
 
