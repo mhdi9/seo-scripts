@@ -20,11 +20,11 @@ def generate_structure(api_key, model, base_prompt, title):
     full_prompt = base_prompt + "\ntitle:\n" + title
     
     # API endpoint
-    url = "https://api.kasku.ai/chat/tls"
+    url = "https://api.ai"
     
     # Headers
     headers = {
-        "Authorization": f"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE2NmJjMDk3ZDU5ZGYyZjMxZTMwYWQiLCJpYXQiOjE3Njg5MTA2NjksImV4cCI6MTc2ODk5NzA2OX0.8DtQR1pPhQiG-IK0f8tFZvBxpNhX1nw2NsCRSRtWby8",
+        "Authorization": f"Bearer",
         "Content-Type": "application/json"
     }
     
