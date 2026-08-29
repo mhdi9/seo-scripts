@@ -7,9 +7,9 @@ import sys
 # ────────────────────────────────────────────────
 # CONFIG - CHANGE THESE
 # ────────────────────────────────────────────────
-API_URL       = "https://api.kasku.ai/chat/tls"          # ← آدرس واقعی API رو اینجا بذار
-BEARER_TOKEN  = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2ODE2NmJjMDk3ZDU5ZGYyZjMxZTMwYWQiLCJpYXQiOjE3Njg5MTA2NjksImV4cCI6MTc2ODk5NzA2OX0.8DtQR1pPhQiG-IK0f8tFZvBxpNhX1nw2NsCRSRtWby8"  # ← توکن کامل
-SESSION_ID    = "696f6f5d336f5b00e38b37ff"                # ← session id ثابت یا متغیر
+API_URL       = ""          # ← آدرس واقعی API رو اینجا بذار
+BEARER_TOKEN  = ""  # ← توکن کامل
+SESSION_ID    = ""                # ← session id ثابت یا متغیر
 # ────────────────────────────────────────────────
 
 # Function to read prompt from text file
